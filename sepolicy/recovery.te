@@ -36,7 +36,7 @@ allow recovery install_data_file:file create_file_perms;
 allow recovery system_data_file:file create_file_perms;
 
 # /cache/recovery things: command and logs
-allow recovery recovery_cache_file:dir create_dir_perms;
-allow recovery recovery_cache_file:file create_file_perms;
+allow recovery cache_recovery_file:dir create_dir_perms;
+allow recovery cache_recovery_file:file create_file_perms;
 
 ')
